@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Test_1</string>
+    <string name="title_home">Task 1</string>
+    <string name="title_dashboard">Task 2</string>
+    <string name="title_notifications">Notifications</string>
+
+
+    <string name="Hg">Вміст водню, %</string>
+    <string name="Cg">Вміст вуглецю, %</string>
+    <string name="Og">Вміст кисню, %</string>
+    <string name="Sg">Вміст сірки, %</string>
+    <string name="Qdaf">Нижча теплота згоряння горючої маси мазуту, МДж/кг</string>
+    <string name="Wg">Вологість робочої маси палива, %</string>
+    <string name="Ag">Зольність сухої маси, %</string>
+    <string name="Vg">Вміст ванадію, мг/кг</string>
+
+    <string name="Np">Вміст азоту, %</string>
+    <string name="Wp">Вміст вологи, %</string>
+    <string name="Ap">Вміст попелу, %</string>
+</resources>

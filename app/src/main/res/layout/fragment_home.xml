@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+    <EditText
+        android:id="@+id/Hp"
+        android:layout_width="0dp"
+        android:layout_height="51dp"
+        android:ems="10"
+        android:hint="@string/Hg"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/Cp"
+        android:layout_width="0dp"
+        android:layout_height="51dp"
+        android:ems="10"
+        android:hint="@string/Cg"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Hp" />
+
+    <EditText
+        android:id="@+id/Sp"
+        android:layout_width="0dp"
+        android:layout_height="51dp"
+        android:ems="10"
+        android:hint="@string/Sg"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Cp" />
+
+    <EditText
+        android:id="@+id/Np"
+        android:layout_width="0dp"
+        android:layout_height="51dp"
+        android:ems="10"
+        android:hint="@string/Np"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Sp" />
+
+    <EditText
+        android:id="@+id/Op"
+        android:layout_width="0dp"
+        android:layout_height="51dp"
+        android:ems="10"
+        android:hint="@string/Og"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Np" />
+
+    <EditText
+        android:id="@+id/Wp"
+        android:layout_width="0dp"
+        android:layout_height="51dp"
+        android:ems="10"
+        android:hint="@string/Wp"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Op" />
+
+    <EditText
+        android:id="@+id/Ap"
+        android:layout_width="0dp"
+        android:layout_height="51dp"
+        android:ems="10"
+        android:hint="@string/Ap"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Wp" />
+
+    <Button
+        android:id="@+id/buttonCalculateTask1"
+        android:layout_width="128dp"
+        android:layout_height="51dp"
+        android:layout_marginBottom="60dp"
+        android:text="Calculate"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/outputTask1"
+        android:layout_width="387dp"
+        android:layout_height="227dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.071"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Ap" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

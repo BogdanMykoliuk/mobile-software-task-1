@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.dashboard.DashboardFragment">
+
+    <EditText
+        android:id="@+id/Hg"
+        android:layout_width="0dp"
+        android:layout_height="51dp"
+        android:ems="10"
+        android:hint="@string/Hg"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/Cg"
+        android:layout_width="0dp"
+        android:layout_height="51dp"
+        android:ems="10"
+        android:hint="@string/Cg"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Hg" />
+
+    <EditText
+        android:id="@+id/Og"
+        android:layout_width="0dp"
+        android:layout_height="51dp"
+        android:ems="10"
+        android:hint="@string/Og"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Cg" />
+
+    <EditText
+        android:id="@+id/Sg"
+        android:layout_width="0dp"
+        android:layout_height="51dp"
+        android:ems="10"
+        android:hint="@string/Sg"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Og" />
+
+    <EditText
+        android:id="@+id/Qdaf"
+        android:layout_width="0dp"
+        android:layout_height="51dp"
+        android:ems="10"
+        android:hint="@string/Qdaf"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Sg" />
+
+    <EditText
+        android:id="@+id/Wg"
+        android:layout_width="0dp"
+        android:layout_height="51dp"
+        android:ems="10"
+        android:hint="@string/Wg"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Qdaf" />
+
+    <EditText
+        android:id="@+id/Ag"
+        android:layout_width="0dp"
+        android:layout_height="51dp"
+        android:ems="10"
+        android:hint="@string/Ag"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Wg" />
+
+    <EditText
+        android:id="@+id/Vg"
+        android:layout_width="0dp"
+        android:layout_height="51dp"
+        android:ems="10"
+        android:hint="@string/Vg"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Ag" />
+
+    <Button
+        android:id="@+id/buttonCalculateTask2"
+        android:layout_width="128dp"
+        android:layout_height="51dp"
+        android:layout_marginBottom="60dp"
+        android:text="Calculate"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/outputTask2"
+        android:layout_width="388dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Vg" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
